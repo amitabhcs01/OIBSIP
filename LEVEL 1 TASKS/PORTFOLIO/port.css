@@ -1,0 +1,117 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            margin-right: 10px;
+            height: 80px;
+            width: 80px;
+        }
+
+        .logo h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        body {
+            background-image: url('wp00.webp');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 44px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        .my-custom-class {
+            font-size: 22px;
+        }
+
+        .resume-content {
+            margin-top: 20px;
+        }
+
+        .resume-content h3 {
+            margin-bottom: 10px;
+        }
+
+        .resume-content ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .resume-content ul li {
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #3498db;
+            color: #ffffff;
+            border-radius: 1px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        .footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: gray;
+            color: white;
+            font-size: 14px;
+            padding: 10px;
+          }
+   
